@@ -68,13 +68,12 @@
 			<version>9.0.22</version>
 		</dependency>
 		
-		<!-- JSTL -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
+		
 	</dependencies>
 
 	<build>

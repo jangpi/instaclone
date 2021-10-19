@@ -2,7 +2,8 @@ server:
   port: 8070
   servlet:
     context-path: /
-    
+
+
 spring:
   mvc:
     view:
@@ -18,7 +19,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       use-new-id-generator-mappings: false
@@ -31,7 +32,7 @@ spring:
     multipart:
       enabled: true
       max-file-size: 2MB
-
+   
   http:
     encoding:
       charset: UTF-8
@@ -45,4 +46,4 @@ spring:
       
 
 file:
-  path: C:/src/instaclone/insta/src/main/resources/upload/
+  path: C:/workspace/insta/src/main/resources/static/upload/

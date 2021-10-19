@@ -39,7 +39,13 @@ public class Follow {
 	private User toUser;
 	
 	@Transient	// DB에 영향 X
-	private boolean matpal;
+	private boolean fromUserMatpal;
+	
+	@Transient
+	private boolean principalMatpal;
+	
+	@Transient
+	private boolean followState;
 	
 	@CreationTimestamp	// 시간 자동 입력 어노테이션
 	private Timestamp createDate;
